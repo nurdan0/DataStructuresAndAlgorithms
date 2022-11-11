@@ -1,0 +1,25 @@
+----------------------Proje 3--------------------------
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+1)Sıralama adımları :
+    
+                                5
+                              /    \
+                             1       7 
+                           /  \     / \
+                           0   3   6   8 
+                              / \       \ 
+                             2  4        9   
+
+
+
+ 10 indeksli dizimizde 2. index olan 5 elemanı Root olur.
+    Root = 5
+
+   Rootun sağında 7 solunda 1 bulunur.
+    - 7'in sağında 8 bulunur. solunda 6 bulunur.
+    - 1'in sagında 3 solunda 0 bulunur.
+    - 8'in sagında 9 bulunur.
+    - 3'ün sagında 4 solunda 2 bulunhur.
